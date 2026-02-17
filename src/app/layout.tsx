@@ -25,5 +25,21 @@ export const metadata = {
     "fruit soda",
     "swap soda"
   ],
+  openGraph: {
+    title: "Swap Soda – Natural Citrus Energy Drink",
+    description:
+      "A refreshing citrus energy drink for modern lifestyles. Lemon and Orange flavours.",
+    url: "https://swap-soda-website.vercel.app",
+    siteName: "Swap Soda",
+    images: [
+      {
+        url: "/images/lemon.png", // your hero image
+        width: 1200,
+        height: 630,
+        alt: "Swap Soda Lemon Drink",
+      },
+    ],
+    type: "website",
+  },
 };
 
