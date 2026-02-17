@@ -13,7 +13,8 @@ export default function Hero({ flavour, setFlavour }: HeroProps) {
     const isLemon = flavour === "lemon";
 
     return (
-        <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden">
+        <section className="relative min-h-[100svh] w-full flex flex-col items-center justify-center overflow-hidden pb-20">
+
             {/* Animated Background Gradient */}
             <motion.div
                 className={cn(
